@@ -20,3 +20,9 @@ HEADERS  += mainwindow.h \
     ../../source/qcgaugewidget.h
 
 FORMS    += mainwindow.ui
+
+
+target.path += $$OUT_PWD/../../bin
+INSTALLS += target
+
+QMAKE_POST_LINK=$(MAKE) install -j

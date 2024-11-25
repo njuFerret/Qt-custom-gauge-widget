@@ -34,7 +34,7 @@
 #include <QObject>
 #include <QRectF>
 #include <QtMath>
-
+#include <QPainterPath>
 
 
 #if defined(QCGAUGE_COMPILE_LIBRARY)
